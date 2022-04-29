@@ -6,4 +6,4 @@ Most of the code were written in C++.
 
 ### Graphs
 
-- [Dijkstra] (marcotuliopin/supa-library)
+- [Dijkstra](marcotuliopin/supa-library/graphs/dijkstra)

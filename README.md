@@ -1,2 +1,2 @@
 # supa-library
-Biblioteca de algoritmos com implementação própria.
+My implementation of various algorithms. (2022)

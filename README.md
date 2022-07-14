@@ -17,6 +17,6 @@ Most of the code were written in C++.
 
 - [Knapsack Problem](dynamic-prog/knapsack.cpp)
 
-## Math
+### Math
 
 - [Sieve of Eratosthenes](maths/crivo.cpp)

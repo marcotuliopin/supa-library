@@ -1,26 +1,30 @@
 /*
- *Dijkstra
- *
- *
- *Encontra a menor distancia de um vertice v a todos os outros
- *Só funciona para pesos positivos
- *
- *Caso a distancia ate um determinado vertice seja INF, ele faz parte de outro
- *componente do grafo
- *
- *O(m * log(n))
- */
+*Dijkstra
+*
+*
+*Encontra a menor distancia de um vertice v a todos os outros
+*Só funciona para pesos positivos
+*
+*Caso a distancia ate um determinado vertice seja INF, ele faz parte de outro
+*componente do grafo
+*
+*Requer: mx (matriz de adjacencia), d(vetor de distancias), v (vertice inicial)
+*Efeito(s): minimiza os valores de d
+* 
+*O(m * log(n))
+*/
 
-
+#define MAX 10
+#define INF 0xf3f3f3f3
 
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<int> d(MAX, INF); // distancia dos vertices a v
-vector<vector<pair<int, int>>> mx(MAX); // pares armazenam {distancia, indice}
+vector<int> d(MAX, INF); 
+vector<vector<pair<int, int>>> mx(MAX); 
 
-void dijkstra(int v){
-
+void dijkstra(int v)
+{
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> q;
     q.emplace(0, v); 
 

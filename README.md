@@ -6,4 +6,17 @@ Most of the code were written in C++.
 
 ### Graphs
 
-- [Dijkstra] (marcotuliopin/supa-library)
+- [Dijkstra](graphs/dijkstra.cpp)
+
+### Data Structures
+
+- [Segmentation Tree](data-structures/seg-tree.cpp)
+- [Trie](trie.cpp)
+
+### Dynamic Programming
+
+- [Knapsack Problem](dynamic-prog/knapsack.cpp)
+
+## Math
+
+- [Sieve of Eratosthenes](maths/crivo.cpp)

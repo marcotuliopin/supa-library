@@ -1,6 +1,6 @@
 # supa-library
-My implementation of various algorithms, made for studying purposes. (2022)
-Most of the code were written in C++.
+My implementation of various algorithms, made for studying purposes.
+Most of the code is written in C++.
 
 ## Content
 

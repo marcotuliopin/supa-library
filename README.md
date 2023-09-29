@@ -7,6 +7,7 @@ Most of the code is written in C++.
 ### Graphs
 
 - [Dijkstra](graphs/dijkstra.cpp)
+- [Hare-Tortoise](graphs/hare_tortoise.cpp)
 
 ### Data Structures
 

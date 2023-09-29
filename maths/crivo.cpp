@@ -1,5 +1,7 @@
 /*
 *Crivo de Eratostenes
+*
+*
 *Encontra todos os primos em um determinado intervalo.
 *
 *O(n*log(log(n)) + q)

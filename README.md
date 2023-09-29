@@ -11,7 +11,7 @@ Most of the code were written in C++.
 ### Data Structures
 
 - [Segmentation Tree](data-structures/seg-tree.cpp)
-- [Trie](trie.cpp)
+- [Trie](data-structures/trie.cpp)
 
 ### Dynamic Programming
 

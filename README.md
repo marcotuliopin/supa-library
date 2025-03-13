@@ -20,4 +20,4 @@ Most of the code is written in C++.
 
 ### Math
 
-- [Sieve of Eratosthenes](maths/crivo.cpp)
+- [Sieve of Eratosthenes](maths/sieve.cpp)

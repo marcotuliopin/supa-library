@@ -1,8 +1,8 @@
 /*
-*Crivo de Eratostenes
+*Sieve of Eratostenes
 *
 *
-*Encontra todos os primos em um determinado intervalo.
+*Find all prime numbers in an interval.
 *
 *O(n*log(log(n)) + q)
 */
@@ -13,7 +13,7 @@ using namespace std;
 vector<int> primos(100000);
 
 /*
-*1 caso primo, 0 caso contrario
+*1 if prime, else 0
 */
 void crivo(vector<int> primos)
 {
@@ -29,7 +29,7 @@ void crivo(vector<int> primos)
 }
 
 /*
-*Armazena o maior divisor do numero
+*Stores the largest divider.
 */
 void crivo()
 {
